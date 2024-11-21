@@ -428,7 +428,7 @@ function batalhar(Personagem $perPlayer,Personagem $perEnemy){//nome auto-descri
                     
                     system('clear');
                     arrayMenu(true,returnArrayMethod($perPlayer->getAllPoderes(),'getExplicacao'));
-                    print"AVISO!Você precisa escrever o nome da habilidade!(não é case-sensitive)";
+                    print"AVISO!Você precisa escrever o nome da habilidade!(não é case-sensitive)\n";
                     $opValue = readline();
                     $opValue = strtolower(clearString($opValue));
                     switch($opValue){
